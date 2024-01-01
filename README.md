@@ -1,7 +1,7 @@
 # Laporan Proyek Machine Learning
 ### Nama : Veronika
-### Nim : 21135
-### Kelas :
+### Nim : 211351147
+### Kelas : Teknik Informatika Pagi B
 
 ## Domain Proyek
 
