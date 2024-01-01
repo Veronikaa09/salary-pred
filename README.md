@@ -202,6 +202,79 @@ out :
 Tingkat Akurasi data training = 0.8444190944190945
 Tingkat akurasi data testing = 0.8442010441191524
 ```
+## EDA
+untuk menampilkan seberapa sering setiap nilai pada kolom salary muncul dalam dataset.
+```bash
+sns.countplot(x=df['salary'], data=df)
+plt.show()
+```
+![image](https://github.com/Veronikaa09/salary-pred/assets/149310956/03427b63-daf5-46d7-b327-d4a2efb05a7d)
+
+untuk menunjukan tingkat persentase berdasarkan etnis.
+```bash
+plt.figure(figsize=(6, 6))
+plt.title('Tingkat Persentase berdasarkasn etnis')
+
+count_pekerjaan = df['race'].value_counts()
+
+plt.pie(count_pekerjaan, labels=count_pekerjaan.index, autopct='%1.1f%%', startangle=140)
+
+plt.show()
+```
+![image](https://github.com/Veronikaa09/salary-pred/assets/149310956/0f46bdc0-623e-4b43-a33c-5dcf01f31a03)
+
+untuk menampilkan jumlah kabupaten per provinsi
+```bash
+# Menghitung jumlah kabupaten per provinsi
+count_jenis_pekerjaan = df['occupation'].value_counts()
+
+# Mengambil top 10 provinsi
+top_10_pekerjaan = count_jenis_pekerjaan.head(10)
+
+# Membuat plot menggunakan seaborn dengan rotasi label 45 derajat
+plt.figure(figsize=(10, 3))
+plot = sns.countplot(x='occupation', data=df, order=top_10_pekerjaan.index)
+plot.set_xticklabels(plot.get_xticklabels(), rotation=45, ha='right')  # Menambahkan rotasi 45 derajat
+plt.title('Top 10 Pekerjaan')
+plt.show()
+```
+![image](https://github.com/Veronikaa09/salary-pred/assets/149310956/6cd272c6-2f80-4ed5-9907-79c4e4e314c3)
+
+untuk menampilkan penyebaran berdasarkan usia.
+```bash
+plt.figure(figsize=(10, 6))
+sns.histplot(df['age'], bins=30, kde=True, color='skyblue')
+plt.title('Penyebaran berdasarkan usia')
+plt.xlabel('Usia')
+plt.ylabel('Frequency')
+plt.show()
+
+plt.show()
+```
+![image](https://github.com/Veronikaa09/salary-pred/assets/149310956/55d701af-e3a4-40c7-a0b4-8c0b94990f33)
+
+untuk menampilkan jumlah jam kerja perminggu.
+```bash
+plt.figure(figsize=(10, 6))
+sns.histplot(df['hours-per-week'], bins=30, kde=True, color='salmon')
+plt.title('Jumlah Jam Kerja Perminggu')
+plt.xlabel('Jam Perminggu')
+plt.ylabel('Frequency')
+plt.show()
+```
+![image](https://github.com/Veronikaa09/salary-pred/assets/149310956/b0b195da-8fe7-426a-8ddc-e2890dd35c69)
+
+untuk menampilakan jenjang edukasi berdasarkan jenis kelamin.
+```bash
+plt.figure(figsize=(12, 8))
+sns.countplot(x='education', data=df, hue='sex', palette='muted')
+plt.title('Jenjang edukasi bersarkan jenis kelamin')
+plt.xlabel('Jenjang edukasi')
+plt.ylabel('Count')
+plt.xticks(rotation=45)
+plt.show()
+```
+
 ## Evaluation
 Metrik evaluasi yang digunakan yaitu confusion matrik dengan memasukan perintah :
 ```bash
@@ -232,6 +305,10 @@ if (prediction[0]==0):
   print('Gaji Kurang dari sama dengan 50k')
 else:
   print('Gaji diatas 50k')
+```
+```bash
+out : [0]
+Gaji Kurang dari sama dengan 50k
 ```
 
 untuk visualisasi datanya
