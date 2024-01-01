@@ -327,3 +327,5 @@ plt.show()
 
 ## Deployment
 [Klasifikasi Gaji Algoritma Decision Tree](https://salary-pred-d3.streamlit.app/)
+![image](https://github.com/Veronikaa09/salary-pred/assets/149310956/1b24aa06-c819-40a1-9a3b-54235c68fe51)
+
