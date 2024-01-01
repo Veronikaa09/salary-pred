@@ -1,6 +1,6 @@
 # Laporan Proyek Machine Learning
-### Nama :
-### Nim :
+### Nama : Veronika
+### Nim : 21135
 ### Kelas :
 
 ## Domain Proyek
