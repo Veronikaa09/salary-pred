@@ -172,9 +172,9 @@ if st.button('Kelasifikasi Gaji'):
     kelas_gaji = model.predict([[age, workclass, education, marital_status, occupation, relationship, race, sex, capital_gain, capital_loss, hours_per_week, region]])
     
     if(kelas_gaji[0] == 0):
-        kelas = 'Gaji Kurang dari sama dengan 50k'
+        kelas = 'Gaji Kurang dari sama dengan $50k pertahun'
     else :
-        kelas ='Gaji Lebih dari 50k'
+        kelas ='Gaji Lebih dari $50k pertahun'
 
     st.success(kelas)
 
