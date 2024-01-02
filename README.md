@@ -22,23 +22,26 @@ Bagian laporan ini mencakup:
 - Untuk memudahkan kita menentukan jenjang pekerjaan. 
 
     ### Solution statements
-    - Maka dibuatkannya aplikasi 
+    - Maka dibuatkannya aplikasi Klasifikasi Gaji menggunakan Algoritma Decision Tree.
 
 ## Data Understanding
-Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. dataset wajib menggunakan [kaggle](https://www.kaggle.com/) dan **atribut yang digunakan minimal 8 atribut**. Sertakan juga sumber atau tautan untuk mengunduh dataset.<br> 
-
-Contoh: [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction).
-
-Selanjutnya uraikanlah seluruh variabel atau fitur pada data. Sebagai contoh:  
+Dataset yang digunakan adalah dataset yang diambil dari kaggle, didalamnya berisi 14 parameter.
 
 ### Variabel-variabel pada Heart Failure Prediction Dataset adalah sebagai berikut:
-- Age : merupakan umur pasien dalam satuan tahun.
-- Sex : merupakan jenis kelamin pasien meliputi [M: Male, F: Female].
-- dst
-
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Melakukan beberapa tahapan yang diperlukan untuk memahami data, contohnya teknik visualisasi data atau exploratory data analysis.
-
+- age: Merupakan umur.
+- workclass: Merupakan jenis kelas.
+- education: Merupakan jenis pendidikan.
+- education-num: Merupakan nomor pendidikan.
+- marital-status: Merupakan status pernikahan.
+- occupation: Merupakan jenis pekerjaan.
+- relationship: Merupakan status hubungan.
+- race: White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black.
+- sex: Merupakan jenis kelamin.
+- capital-gain: continuous.
+- capital-loss: continuous.
+- hours-per-week: continuous.
+- native-country: Merupakan
+  
 ## Data Preparation
 Pertama kita import dulu library yang di butuh dengan memasukan perintah :
 ```bash
