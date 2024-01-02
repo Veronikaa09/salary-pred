@@ -31,16 +31,16 @@ Dataset yang digunakan adalah dataset yang diambil dari kaggle, didalamnya beris
 - age: Merupakan umur.
 - workclass: Merupakan jenis kelas.
 - education: Merupakan jenis pendidikan.
-- education-num: Merupakan nomor pendidikan.
+- education-num: Merupakan tahun lamanya menempuh pendidikan.
 - marital-status: Merupakan status pernikahan.
 - occupation: Merupakan jenis pekerjaan.
 - relationship: Merupakan status hubungan.
 - race: White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black.
 - sex: Merupakan jenis kelamin.
-- capital-gain: continuous.
-- capital-loss: continuous.
-- hours-per-week: continuous.
-- native-country: Merupakan
+- capital-gain: Merupakan pendapatan perkapita.
+- capital-loss: Merupakan nilai inflasi.
+- hours-per-week: Merupakan jam kerja per minggu
+- native-country: Merupakan daerah untuk mencari kerja.
   
 ## Data Preparation
 Data berdasarkan kaggle
