@@ -4,37 +4,25 @@
 ### Kelas : Teknik Informatika Pagi B
 
 ## Domain Proyek
-Data asini didasarkan pada hasil sensus yang dilakukan Barry Baker pada tahun 1994 untuk menetukan jenjang pekerjaan apa saja yang dapat menghasilkan gaji lebih dari $50k pertahun dan pekerjaan apa saja yang mendapat gaji kurang dari $50k
+Data asini didasarkan pada hasil sensus yang dilakukan Barry Baker pada tahun 1994 untuk menentukan jenjang pekerjaan apa saja yang dapat menghasilkan gaji lebih dari $50k pertahun dan pekerjaan apa saja yang mendapat gaji kurang dari $50k
 
 ## Business Understanding
 
-berdasarkan hasil penelitian Barry baker yang dilakukan pada tahun 1994 yang didasarkan pada sensus kependudukan, didapast beberapa hasil perihal jenjang pekerjaan dan pendapatantan tahunan nya.
+berdasarkan hasil penelitian Barry baker yang dilakukan pada tahun 1994 yang didasarkan pada sensus kependudukan, didapat beberapa hasil perihal jenjang pekerjaan dan pendapatan tahunan nya.
 Diharapkan dengan menggunakan algoritma Decision Tree kita bisa menenetukan klasifikasi pada pendapatan tahunan, yang di dasarkan pada 14 parameter yang akan di jabarkan di bawah
 
 Bagian laporan ini mencakup:
 
 ### Problem Statements
 
-Menjelaskan pernyataan masalah latar belakang:
-- Pernyataan Masalah 1
-- Pernyataan Masalah 2
-- Pernyataan Masalah n
+- Ketidaktahuan seseorang terhadap klassifikasi gaji yang akan didapatkan berdasarkan parameter yang telah ditentukan.
 
 ### Goals
 
-Menjelaskan tujuan dari pernyataan masalah:
-- Jawaban pernyataan masalah 1
-- Jawaban pernyataan masalah 2
-- Jawaban pernyataan masalah n
-
-Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
-
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Menambahkan bagian “Solution Statement” yang menguraikan cara untuk meraih goals. Bagian ini dibuat dengan ketentuan sebagai berikut: 
+- Untuk memudahkan kita menentukan jenjang pekerjaan. 
 
     ### Solution statements
-    - Mengajukan 2 atau lebih solution statement. Misalnya, menggunakan dua atau lebih algoritma untuk mencapai solusi yang diinginkan atau melakukan improvement pada baseline model dengan hyperparameter tuning.
-    - Solusi yang diberikan harus dapat terukur dengan metrik evaluasi.
+    - Maka dibuatkannya aplikasi 
 
 ## Data Understanding
 Paragraf awal bagian ini menjelaskan informasi mengenai data yang Anda gunakan dalam proyek. dataset wajib menggunakan [kaggle](https://www.kaggle.com/) dan **atribut yang digunakan minimal 8 atribut**. Sertakan juga sumber atau tautan untuk mengunduh dataset.<br> 
