@@ -43,6 +43,7 @@ Dataset yang digunakan adalah dataset yang diambil dari kaggle, didalamnya beris
 - native-country: Merupakan
   
 ## Data Preparation
+Data berdasarkan kaggle
 Pertama kita import dulu library yang di butuh dengan memasukan perintah :
 ```bash
 import numpy as np
