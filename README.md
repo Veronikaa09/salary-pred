@@ -4,18 +4,12 @@
 ### Kelas : Teknik Informatika Pagi B
 
 ## Domain Proyek
-
-Pada bagian ini, kamu perlu menuliskan latar belakang yang relevan dengan proyek yang diangkat.
-
-**Rubrik/Kriteria Tambahan (Opsional)**:
-- Jelaskan mengapa dan bagaimana masalah tersebut harus diselesaikan
-- Menyertakan hasil riset terkait atau referensi. Referensi yang diberikan harus berasal dari sumber yang kredibel dan author yang jelas.
-  
-  Format Referensi: [Judul Referensi](https://scholar.google.com/) 
+Data asini didasarkan pada hasil sensus yang dilakukan Barry Baker pada tahun 1994 untuk menetukan jenjang pekerjaan apa saja yang dapat menghasilkan gaji lebih dari $50k pertahun dan pekerjaan apa saja yang mendapat gaji kurang dari $50k
 
 ## Business Understanding
 
-Pada bagian ini, kamu perlu menjelaskan proses klarifikasi masalah.
+berdasarkan hasil penelitian Barry baker yang dilakukan pada tahun 1994 yang didasarkan pada sensus kependudukan, didapast beberapa hasil perihal jenjang pekerjaan dan pendapatantan tahunan nya.
+Diharapkan dengan menggunakan algoritma Decision Tree kita bisa menenetukan klasifikasi pada pendapatan tahunan, yang di dasarkan pada 14 parameter yang akan di jabarkan di bawah
 
 Bagian laporan ini mencakup:
 
